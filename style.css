@@ -1,0 +1,76 @@
+/* Add a font family ( Arial ) using universal selector.
+ */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change the color of all <p> elements to dark gray.
+Set the background color of the <body> to a light color of your choice. */
+
+p{
+    color: darkgray;
+}
+
+body{
+    background-color: rgba(250, 235, 215, 0.638);
+}
+
+/* Give elements with the class "highlight" a yellow background.
+Style elements with the class "box" like background-color, font-family, color etc etc...
+ */
+
+ .highlight{
+    background-color: yellow;
+}
+.box{
+    background-color: black;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10;
+    font-weight: bold;
+}
+.box p{
+    color: bisque;
+}
+/* the box targeted both div of content class */
+
+    
+
+
+/* div of class important using this we can also make changes like shown */
+.important{
+    
+    background-color: red;
+}
+.important p {
+    color: black;
+}
+
+/* Make the text in the "main-header" larger and bold.
+Give the "main-header" a different background color. */
+#main-header h1{
+    font-size: 50px;
+    font: bold;
+    background-color: rgba(48, 135, 135, 0.575);
+}
+#main-header ul{
+    font-size: 20px;
+    font-style: italic;
+    font: 900;
+    background-color: rgba(117, 191, 166, 0.385);
+}
+
+/* Change the color of <span> elements inside <p> elements to blue.
+Style <li> elements inside the list-div class with different text color. */
+p span{
+    color: blue;
+}
+.list-div li{
+    color: orangered;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: rgb(255, 0, 43);
+}
+
